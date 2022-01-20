@@ -7,7 +7,6 @@ print((42*60)+42)
 print(10/1.61)  
 #6.21 miles
 #if you run a 10 kilometer in 42 mintues and 42 seconds, what is your average pace? (time in time per miles and seconds) what is your average speed in miles per hour
-16.1
 
 print(2562/6.21) # seconds/ miles, 412 seconds a mile  or around 
 print(6.21/2562) # miles/seconds, .00242 miles per second 
