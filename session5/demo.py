@@ -1,3 +1,6 @@
+from termios import XTABS
+
+
 r1=123
 r2=567
 r3=100000000
@@ -12,3 +15,8 @@ def area_of_circle(x):
     print(area)
 
 area_of_circle(r2) # call the function
+
+round(1.6)
+min(4,1)
+ord('t')
+
