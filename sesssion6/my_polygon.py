@@ -1,3 +1,5 @@
+import antigravity
+from re import A
 import turtle
 
 leo = turtle.Turtle()
@@ -31,9 +33,10 @@ leo = turtle.Turtle()
 # rapheal=turtle.Turtle()
 # square(rapheal)
 
-def square_length(t,length):
+def square_length(t,length,edges,a):
     """write a function called square that takes a paramter named t, which is a turltle that will use the turltle to draw a sqaure."""
-    for i in range(4):
+    t.setheading(a)
+    for i in range(edges):
         t.fd(length)
-        t.lt(90)
-square_length(leo,50)
+        t.lt(360/edges)
+square_length(leo,50,10,100)
