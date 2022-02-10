@@ -26,9 +26,6 @@
 
 # print(moonweight(weight))
 
-
-
-
 """
 Question 2:
 
