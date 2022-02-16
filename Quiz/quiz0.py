@@ -46,13 +46,16 @@ Notice:
 
 def earthconvert(weight,planet):
     """ this should take in 2 variables and converts earth weights to equivlent weights on different planets"""
-    if planet("Jupiter"):
+    if planet=="Jupiter":
         juipeterweight=weight*2.528
         return juipeterweight
-    elif planet("mars"):
+    elif planet=="mars":
         marsweight=weight*.378
         return marsweight
-    elif planet("moon"):
+    elif planet=="moon":
         moonweight=weight*.165
         return moonweight
-earthconvert(50,'jupiter')
+    else:
+        return "this is not one of the planets so i cant do this calculation"
+print(earthconvert(50,'Jupiter'))
+
