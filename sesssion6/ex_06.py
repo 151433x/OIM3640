@@ -3,7 +3,6 @@ from re import X
 import turtle
 leo = turtle.Turtle()
 
-
 def square_length(t, length, edges, a):
     """write a function called square that takes a paramter named t, which is a turltle that will use the turltle to draw a sqaure."""
     t.setheading(a)
