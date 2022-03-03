@@ -67,20 +67,14 @@ from typing import Counter
 #             return False
 #     return True
 
-def uses_only(available):
+def uses_only(word,available):
     """
-     a string of letters, and that returns the number of words in the list that only have these letters."
+     a string of letters, and a word that. this will check if this word only uses the listed letters."
     """
-    f = open('data/words.txt')
-    line = f.readline()
-    line=line.strip()
-    yescounter=0
-    for line in f:
-        for letter in line: 
-            if letter in available:
-                yescounter+=1
-                print(line) 
-    return yescounter
+    for letter in word: 
+        if letter not in available:
+            return False
+    return True
 print(uses_only("planets"))
                 
 
@@ -99,7 +93,7 @@ print(uses_only("planets"))
 
 # def find_words_only_use_planet():
 #     """"""
-#     pass
+ #     pass
 
 
 # # print('Number of words that use only letters from "planets" is', find_words_only_use_planet())
