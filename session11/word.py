@@ -1,8 +1,4 @@
-from ctypes.wintypes import WORD
 import os
-from pickle import TRUE
-from traceback import format_list
-from typing import Counter
 
 
 # Assume words.txt is under data folder
