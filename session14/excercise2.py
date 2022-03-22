@@ -12,6 +12,7 @@ def keylist(d):
         e.append(''.join(sorted(i)))
     return e
 def anagrams(wordlist,keylist):
+    """ this function will take in two paramters which are """
     d={}
     finald={}
     for i in range(len(wordlist)):
